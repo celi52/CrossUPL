@@ -1,6 +1,6 @@
 # A Dataset for Day-ahead Power Load Forecasting Based on Multiple Utilities Integration
 
-This repository provides an official **PyTorch** implementation of *CrossUPL: A Dataset for Day-ahead Power Load Forecasting Based on Multiple Utilities Integration (Under review as a submission to KDD2025 Dataset and Benchmark Track).*
+This repository provides an official **PyTorch** implementation of *CrossUPL: A Dataset for Day-ahead Power Load Forecasting Based on Multiple Utilities Integration.*
 
 <p align="center">
   <img width="800" src="framework.png">
@@ -24,7 +24,7 @@ pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https
 
 ###  Data Preparation
 ---
-Here, we provided a small sample of PJM dataset for testing. For full dataset, please visit [Google Drive](https://drive.google.com/file/d/1odN4IU3fVwMpF1o0oNYxRa5gHSV_lebL/view?usp=sharing)
+Note that, here we provided a small sample of PJM dataset for testing. For full dataset, please visit [Google Drive](https://drive.google.com/file/d/1odN4IU3fVwMpF1o0oNYxRa5gHSV_lebL/view?usp=sharing)
 
 
 **Your Own Data:** To use your own data with CrossUPL, you will need a file containing the historical power load time series data. Example can be found in ./dataset/PJM_OT_data.csv

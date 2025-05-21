@@ -141,7 +141,8 @@ class Dataset_PJM_OT(Dataset):
         return self.scaler.inverse_transform(data)
 
 
-class Dataset_NYIS_OT(Dataset):
+class Dataset_OT(Dataset):
+    # dataloader for NYISO MISO ISNE
     def __init__(self, root_path, flag='train', pjm_sub_name='ZONA ', 
                  pjm_feature='elevation', size=None,
                  features='S', data_path='NYIS_OT_data.csv',
